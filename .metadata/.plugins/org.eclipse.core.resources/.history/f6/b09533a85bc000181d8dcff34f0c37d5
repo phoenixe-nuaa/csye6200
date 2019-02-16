@@ -1,0 +1,31 @@
+package csye6200;
+
+import javax.swing.plaf.synth.SynthSpinnerUI;
+
+public class VehicleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// make a Vehicle instance
+		Vehicle vel = new Vehicle();
+		
+		// using dot operator to set values
+		vel.passengers = 4;
+		
+		System.out.println("vel passengers is:" + vel.passengers);
+		
+		// make a second Vehicle instance
+		Vehicle vel2 = new Vehicle();
+		Vehicle vel3 = new Vehicle(4,30,20);
+		
+		System.out.println(vel3);
+		
+		// point to the same location
+//		vel2 = vel;
+//		
+//		System.out.println(vel2.passengers);
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+十月 26, 2018 11:57:19 上午 edu.neu.csye6200.sim.RegistryIO <init>
+信息: Constructing a RegistryIO instance
+十月 26, 2018 11:57:19 上午 edu.neu.csye6200.sim.RegistryIO saveplant
+信息: Save Successfully
+十月 26, 2018 11:57:19 上午 edu.neu.csye6200.sim.RegistryIO loadplant
+信息: Plants Load Successfully
+十月 26, 2018 11:57:19 上午 edu.neu.csye6200.sim.RegistryIO loadflowerplant
+信息: FlowerPlants Load Successfully

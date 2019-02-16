@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package csye6200;
+
+/**
+ * @author Chen.JL
+ *
+ */
+public class ForDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		// Initialization; Condition;
+		for (int count = 50; count > 10; count -= 2) {
+			System.out.println("This is count:" + count);
+		}
+	}
+}

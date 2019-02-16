@@ -1,0 +1,18 @@
+package csye6200;
+
+public class StrExample {
+
+	// Constructor
+	public StrExample()  {
+		
+		String quote = "The universe is full of stars";
+		
+		int len = quote.length();
+		
+		int starIndex = quote.indexOf("star");
+	}
+	
+	public static void main(String[] args) {
+		StrExample strEx = new StrExample();
+	}
+}

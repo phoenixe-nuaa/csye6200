@@ -1,0 +1,65 @@
+/**
+ * 
+ */
+package csye6200;
+
+import java.io.IOException;
+
+/**
+ * @author Chen.JL
+ *
+ */
+public class SwitchDemo {
+	
+	// X Y age
+	int student[][] = {{3,2,5},
+			{1,2,1},
+			{1,5,2}
+			// more students...
+	};
+
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+public static void main(String[] args) throws IOException {
+		
+	char inChar = ' ';
+	
+	System.out.println("Enter choice(a,b,c) or 'q' to quit, then press <enter>");
+	
+	do {
+		inChar = (char) System.in.read();	
+		
+		switch (inChar) {
+		
+		case 'a':
+			System.out.println("You selected option a");
+			break;
+		
+		case 'b':
+			System.out.println("You selected option b");
+			break;
+			
+		case 'c':
+			System.out.println("You selected option c");
+			break;
+			
+		case 'q':
+		case '\n':
+			//Do nothing
+			break;
+			
+		default:
+			System.out.println("Invalid selection");
+			break;
+			
+		   }
+		}
+		while (inChar != 'q'); //Exit on quit (i.e., 'q')
+		
+		System.out.println("Quitting......");
+	}
+
+}

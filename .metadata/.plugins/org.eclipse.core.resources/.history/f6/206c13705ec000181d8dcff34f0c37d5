@@ -1,0 +1,14 @@
+package csye6200;
+
+public class StrExample {
+
+	// Constructor
+	public StrExample()  {
+		
+		String qute = "The universe is full of stars";
+	}
+	
+	public static void main(String[] args) {
+		StrExample strEx = new StrExample();
+	}
+}

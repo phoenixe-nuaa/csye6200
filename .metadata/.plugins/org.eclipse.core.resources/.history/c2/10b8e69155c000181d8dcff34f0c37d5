@@ -1,0 +1,10 @@
+package csye6200;
+
+public class Vehicle {
+
+	int passengers;
+	int fuelCap;
+	double kpl;
+	
+	public vehicle
+}

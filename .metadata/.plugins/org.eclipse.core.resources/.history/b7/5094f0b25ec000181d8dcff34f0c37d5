@@ -1,0 +1,16 @@
+package csye6200;
+
+public class StrExample {
+
+	// Constructor
+	public StrExample()  {
+		
+		String quote = "The universe is full of stars";
+		
+		int len = quote.length();
+	}
+	
+	public static void main(String[] args) {
+		StrExample strEx = new StrExample();
+	}
+}

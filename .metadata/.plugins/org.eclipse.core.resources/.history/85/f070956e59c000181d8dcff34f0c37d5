@@ -1,0 +1,15 @@
+package csye6200;
+
+public class Vehicle {
+
+	int passengers;
+	int fuelCap;
+	double kpl;
+	
+	// Constructor
+	public Vehicle()  {
+		passengers = 2;
+		int fuelCap = 10;
+		kpl = 2;
+	}
+}

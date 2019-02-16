@@ -1,0 +1,29 @@
+package csye6200;
+
+public class Vehicle {
+
+	int passengers;
+	int fuelCap;
+	double kpl;
+	
+	// Constructor
+	public Vehicle()  {
+		passengers = 2;
+		int fuelCap = 10;
+		kpl = 20;
+	}
+	
+	public Vehicle(int passengers, int fuelCap, double kpl) {
+	
+		this.passengers = passengers;
+		this.fuelCap = fuelCap;
+		this.kpl = kpl;
+
+	}
+	
+	public void setPassengers(int passengers) {
+		if (passengers < 8) passengers = 8;
+		this.passengers = passengers;
+	}
+	
+}

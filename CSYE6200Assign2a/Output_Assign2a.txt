@@ -1,0 +1,5 @@
+Plant TypeName:  lavender  Specimen ID:   01  Age: 10  Height: 1
+Plant TypeName:     maple  Specimen ID:   02  Age: 20  Height: 2
+Plant TypeName: peachtree  Specimen ID:   03  Age: 33  Height:33
+Plant TypeName:      pine  Specimen ID:   04  Age: 44  Height:44
+Plant TypeName: appletree  Specimen ID:   05  Age: 55  Height:55

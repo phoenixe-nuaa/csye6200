@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MenuManager.java&apos; to &apos;CSYE6200Assign5b/src/edu.neu.csye6200.ui&apos;&#x0D;&#x0A;- Original project: &apos;BGApp&apos;&#x0D;&#x0A;- Destination element: &apos;CSYE6200Assign5b/src/edu.neu.csye6200.ui&apos;&#x0D;&#x0A;- Original element: &apos;edu.neu.csye6200.ui.MenuManager.java&apos;" description="Copy compilation unit" destination="=CSYE6200Assign5b/src&lt;edu.neu.csye6200.ui" element1="/&lt;edu.neu.csye6200.ui{MenuManager.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1543860149269" units="1" version="1.0"/>
+</session>
